@@ -1,0 +1,11 @@
+.price[data-store-price] {
+  &[data-variant="listing"] {
+    text-decoration-line: line-through;
+    color: var(--fs-color-text-light);
+  }
+
+  &[data-variant="spot"] {
+    margin-left: var(--fs-spacing-1);
+    font-weight: var(--fs-text-weight-bold);
+  }
+}
